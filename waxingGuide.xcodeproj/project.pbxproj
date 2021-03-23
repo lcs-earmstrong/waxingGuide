@@ -14,6 +14,12 @@
 		B80B2C5E2608E92A00FA3734 /* cold1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C5D2608E92A00FA3734 /* cold1.swift */; };
 		B80B2C622608E96C00FA3734 /* idealConditions1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C612608E96C00FA3734 /* idealConditions1.swift */; };
 		B80B2C6E2609020700FA3734 /* tempList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C6D2609020700FA3734 /* tempList.swift */; };
+		B80B2C83260988BC00FA3734 /* warmestDab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C82260988BC00FA3734 /* warmestDab.swift */; };
+		B80B2C87260988CD00FA3734 /* WarmDab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C86260988CD00FA3734 /* WarmDab.swift */; };
+		B80B2C8A260988DA00FA3734 /* averageDab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C89260988DA00FA3734 /* averageDab.swift */; };
+		B80B2C8D260988E800FA3734 /* idealDab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C8C260988E800FA3734 /* idealDab.swift */; };
+		B80B2C90260988F300FA3734 /* coldDab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C8F260988F300FA3734 /* coldDab.swift */; };
+		B80B2C932609890000FA3734 /* freezingDab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C922609890000FA3734 /* freezingDab.swift */; };
 		B8EE303725FFBE090047AED3 /* waxingGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE303625FFBE090047AED3 /* waxingGuideApp.swift */; };
 		B8EE303925FFBE090047AED3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE303825FFBE090047AED3 /* ContentView.swift */; };
 		B8EE303B25FFBE0E0047AED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8EE303A25FFBE0E0047AED3 /* Assets.xcassets */; };
@@ -39,6 +45,12 @@
 		B80B2C5D2608E92A00FA3734 /* cold1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cold1.swift; sourceTree = "<group>"; };
 		B80B2C612608E96C00FA3734 /* idealConditions1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idealConditions1.swift; sourceTree = "<group>"; };
 		B80B2C6D2609020700FA3734 /* tempList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempList.swift; sourceTree = "<group>"; };
+		B80B2C82260988BC00FA3734 /* warmestDab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warmestDab.swift; sourceTree = "<group>"; };
+		B80B2C86260988CD00FA3734 /* WarmDab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmDab.swift; sourceTree = "<group>"; };
+		B80B2C89260988DA00FA3734 /* averageDab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = averageDab.swift; sourceTree = "<group>"; };
+		B80B2C8C260988E800FA3734 /* idealDab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idealDab.swift; sourceTree = "<group>"; };
+		B80B2C8F260988F300FA3734 /* coldDab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coldDab.swift; sourceTree = "<group>"; };
+		B80B2C922609890000FA3734 /* freezingDab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freezingDab.swift; sourceTree = "<group>"; };
 		B8EE303325FFBE090047AED3 /* waxingGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waxingGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EE303625FFBE090047AED3 /* waxingGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waxingGuideApp.swift; sourceTree = "<group>"; };
 		B8EE303825FFBE090047AED3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +81,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B80B2C81260988A000FA3734 /* bingo dabber */ = {
+			isa = PBXGroup;
+			children = (
+				B80B2C82260988BC00FA3734 /* warmestDab.swift */,
+				B80B2C86260988CD00FA3734 /* WarmDab.swift */,
+				B80B2C89260988DA00FA3734 /* averageDab.swift */,
+				B80B2C8C260988E800FA3734 /* idealDab.swift */,
+				B80B2C8F260988F300FA3734 /* coldDab.swift */,
+				B80B2C922609890000FA3734 /* freezingDab.swift */,
+			);
+			path = "bingo dabber";
+			sourceTree = "<group>";
+		};
 		B88F7DB9260809E0006AB7AD /* Expensive */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +174,7 @@
 		B8EE306C260507830047AED3 /* waxRecomendationWithTool */ = {
 			isa = PBXGroup;
 			children = (
+				B80B2C81260988A000FA3734 /* bingo dabber */,
 				B88F7DBA26080A0B006AB7AD /* casual */,
 				B88F7DB9260809E0006AB7AD /* Expensive */,
 			);
@@ -224,11 +250,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B80B2C83260988BC00FA3734 /* warmestDab.swift in Sources */,
 				B8EE305926038AF70047AED3 /* waxingEquipment.swift in Sources */,
+				B80B2C87260988CD00FA3734 /* WarmDab.swift in Sources */,
 				B80B2C5E2608E92A00FA3734 /* cold1.swift in Sources */,
 				B8EE306A260505170047AED3 /* finalPage.swift in Sources */,
 				B8EE305C2603957D0047AED3 /* skiingType.swift in Sources */,
 				B8EE303925FFBE090047AED3 /* ContentView.swift in Sources */,
+				B80B2C932609890000FA3734 /* freezingDab.swift in Sources */,
 				B8EE306E2605086E0047AED3 /* warmestWax.swift in Sources */,
 				B8EE307F260508CF0047AED3 /* freezing.swift in Sources */,
 				B80B2C622608E96C00FA3734 /* idealConditions1.swift in Sources */,
@@ -243,7 +272,10 @@
 				B8EE3079260508AF0047AED3 /* averageTemp.swift in Sources */,
 				B8EE307C260508C20047AED3 /* cold.swift in Sources */,
 				B8EE3051260262C80047AED3 /* SimpleListItemView.swift in Sources */,
+				B80B2C90260988F300FA3734 /* coldDab.swift in Sources */,
+				B80B2C8A260988DA00FA3734 /* averageDab.swift in Sources */,
 				B8EE3076260508920047AED3 /* idealConditions.swift in Sources */,
+				B80B2C8D260988E800FA3734 /* idealDab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
