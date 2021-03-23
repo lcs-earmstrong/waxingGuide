@@ -9,7 +9,11 @@ import SwiftUI
 
 struct averageDab: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView{
+        Text("For this temperature I would recomend the HS6 liquid wax.")
+        Image("averageLiquid")
+        Text("Apply the wax by 'dabbing' some out and then rubbing it in.  Give it time to cool/soak in and than go ski.")
+        }
     }
 }
 

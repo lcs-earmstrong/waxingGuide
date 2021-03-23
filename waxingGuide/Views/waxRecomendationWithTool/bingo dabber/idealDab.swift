@@ -9,7 +9,11 @@ import SwiftUI
 
 struct idealDab: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView{
+        Text("This is one of if not the best temperature to ski at.  For this temperature I would recomend using the HS7 liquid.")
+        Image("idealLiquid")
+        Text("Apply the wax by 'dabbing' some out and then rubbing it in.  Give it time to cool/soak in and than go ski.")
+        }
     }
 }
 

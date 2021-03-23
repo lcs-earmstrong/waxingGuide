@@ -86,8 +86,8 @@
 			children = (
 				B80B2C82260988BC00FA3734 /* warmestDab.swift */,
 				B80B2C86260988CD00FA3734 /* WarmDab.swift */,
-				B80B2C89260988DA00FA3734 /* averageDab.swift */,
 				B80B2C8C260988E800FA3734 /* idealDab.swift */,
+				B80B2C89260988DA00FA3734 /* averageDab.swift */,
 				B80B2C8F260988F300FA3734 /* coldDab.swift */,
 				B80B2C922609890000FA3734 /* freezingDab.swift */,
 			);
@@ -112,8 +112,8 @@
 			children = (
 				B80B2C512608E8BE00FA3734 /* warmestWax1.swift */,
 				B80B2C4D2608E88500FA3734 /* warmWax1.swift */,
-				B80B2C592608E90D00FA3734 /* averageTemp1.swift */,
 				B80B2C612608E96C00FA3734 /* idealConditions1.swift */,
+				B80B2C592608E90D00FA3734 /* averageTemp1.swift */,
 				B80B2C5D2608E92A00FA3734 /* cold1.swift */,
 				B80B2C552608E8E500FA3734 /* freezing1.swift */,
 			);
