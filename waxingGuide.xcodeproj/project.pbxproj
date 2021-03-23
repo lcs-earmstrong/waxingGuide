@@ -85,12 +85,12 @@
 		B88F7DBA26080A0B006AB7AD /* casual */ = {
 			isa = PBXGroup;
 			children = (
-				B80B2C4D2608E88500FA3734 /* warmWax1.swift */,
 				B80B2C512608E8BE00FA3734 /* warmestWax1.swift */,
-				B80B2C552608E8E500FA3734 /* freezing1.swift */,
+				B80B2C4D2608E88500FA3734 /* warmWax1.swift */,
 				B80B2C592608E90D00FA3734 /* averageTemp1.swift */,
-				B80B2C5D2608E92A00FA3734 /* cold1.swift */,
 				B80B2C612608E96C00FA3734 /* idealConditions1.swift */,
+				B80B2C5D2608E92A00FA3734 /* cold1.swift */,
+				B80B2C552608E8E500FA3734 /* freezing1.swift */,
 			);
 			path = casual;
 			sourceTree = "<group>";

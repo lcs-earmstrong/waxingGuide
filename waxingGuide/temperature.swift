@@ -29,20 +29,20 @@ struct temperature: View {
                     Text("between 0 and 10")
                 }
                 NavigationLink(destination: waxingEquipment(temp: "between -4 and +4")){
-                    Text("between +4 and -4")
+                    Text("between -4 and +4")
                 }
                 NavigationLink(destination: waxingEquipment(temp:"between -8 and -2")) {
-                    Text("between -2 and -8")
+                    Text("between -8 and -2")
                 }
                 NavigationLink(destination: waxingEquipment(temp:"between -12 and -6")){
-                    Text("between -6 and -12")
+                    Text("between -12 and -6")
                 }
                 NavigationLink(destination: waxingEquipment(temp:"between -10 and -18")){
-                    Text("between -10 and -18")
+                    Text("between -18 and -10")
                 }
                 NavigationLink(destination: waxingEquipment(temp: "between -32 and -16"))
                 {
-                    Text("between -16 and -32")
+                    Text("between -32 and -16")
                 }
             }
         }
