@@ -10,11 +10,17 @@ import SwiftUI
 struct coldDab: View {
     var body: some View {
         ScrollView{
-        Text("Finding a wax that fits this temperature range would be best but if you can't I would recommend the universal wax from swix.  (waxes aren't as important in cold conditions).")
-        
-            Image("universalLiquid")
-        
-        Text("Apply the wax by 'dabbing' some out and then rubbing it in.  Give it time to cool/soak in and than go ski.")
+        Text("The wax I found that best suits this temperature range was the GW Polar Liquid Glide by Vaughti.")
+        Spacer()
+            Spacer()
+            
+            Image("coldLiquid")
+                .resizable()
+                .frame(width: 100, height: 200)
+        Spacer()
+            Spacer()
+            Text("Apply the wax by 'dabbing' some out and then rubbing it in.  Give it time to cool/soak in and than go ski.")
+                .padding(.horizontal, 10.0)
     }
     }
 }
