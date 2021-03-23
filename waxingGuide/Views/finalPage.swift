@@ -94,7 +94,7 @@ struct finalPage: View {
                 case "Waxing Iron":
                     
                     switch skierType {
-                    case "casual skier":
+                    case "Casual skier":
                         showWarmestWax = true
                     case "Racer or training":
                         showWarmestWaxes = true
@@ -105,7 +105,7 @@ struct finalPage: View {
                 case "RotoWool":
                     
                     switch skierType {
-                    case "casual skier":
+                    case "Casual skier":
                         showWarmestRoto = true
                     case "Racer or training":
                         showWarmestWool = true
@@ -124,7 +124,7 @@ struct finalPage: View {
                     case "Waxing Iron":
                         
                         switch skierType {
-                        case "casual skier":
+                        case "Casual skier":
                             showWarmestWax = true
                         case "Racer or training":
                             showWarmestWaxes = true
@@ -135,7 +135,7 @@ struct finalPage: View {
                     case "RotoWool":
                         
                         switch skierType {
-                        case "casual skier":
+                        case "Casual skier":
                             showWarmestRoto = true
                         case "Racer or training":
                             showWarmestWool = true
@@ -146,7 +146,7 @@ struct finalPage: View {
                     case "None":
                         
                         switch skierType {
-                        case "casual skier":
+                        case "Casual skier":
                             showWarmestDab = true
                         case "Racer or training":
                             showWarmestDab = true
@@ -167,7 +167,7 @@ struct finalPage: View {
                         case "Waxing Iron":
                             
                             switch skierType {
-                            case "casual skier":
+                            case "Casual skier":
                                 showWarmWax = true
                             case "Racer or training":
                                 showWarmWaxes = true
@@ -178,7 +178,7 @@ struct finalPage: View {
                         case "RotoWool":
                             
                             switch skierType {
-                            case "casual skier":
+                            case "Casual skier":
                                 showWarmRoto = true
                             case "Racer or training":
                                 showWarmWool = true
@@ -187,7 +187,7 @@ struct finalPage: View {
                             }
                         case "None":
                             switch skierType {
-                            case "casual skier":
+                            case "Casual skier":
                                 showWarmDab = true
                             case "Racer or training":
                                 showWarmDab = true
@@ -209,7 +209,7 @@ struct finalPage: View {
                 case "Waxing Iron":
                     
                     switch skierType {
-                    case "casual skier":
+                    case "Casual skier":
                         showidealConditions1 = true
                     case "Racer or training":
                         showidealConditions = true
@@ -220,7 +220,7 @@ struct finalPage: View {
                 case "RotoWool":
                     
                     switch skierType {
-                    case "casual skier":
+                    case "Casual skier":
                         showIdealRoto = true
                     case "Racer or training":
                         showIdealWool = true
@@ -229,7 +229,7 @@ struct finalPage: View {
                     }
                 case "None":
                     switch skierType {
-                    case "casual skier":
+                    case "Casual skier":
                         showIdealDab = true
                     case "Racer or training":
                         showIdealDab = true
@@ -251,7 +251,7 @@ struct finalPage: View {
                 case "Waxing Iron":
                     
                     switch skierType {
-                    case "casual skier":
+                    case "Casual skier":
                         showAverageTemp1 = true
                     case "Racer or training":
                         showAverageTemp = true
@@ -262,7 +262,7 @@ struct finalPage: View {
                 case "RotoWool":
                     
                     switch skierType {
-                    case "casual skier":
+                    case "Casual skier":
                         showAverageRoto = true
                     case "Racer or training":
                         showAverageWool = true
@@ -271,7 +271,7 @@ struct finalPage: View {
                     }
                 case "None":
                     switch skierType {
-                    case "casual skier":
+                    case "Casual skier":
                         showAverageDab = true
                     case "Racer or training":
                         showAverageDab = true
@@ -293,7 +293,7 @@ struct finalPage: View {
                 case "Waxing Iron":
                     
                     switch skierType {
-                    case "casual skier":
+                    case "Casual skier":
                         showColdCasual = true
                     case "Racer or training":
                         showColdRace = true
@@ -304,7 +304,7 @@ struct finalPage: View {
                 case "RotoWool":
                     
                     switch skierType {
-                    case "casual skier":
+                    case "Casual skier":
                         showColdRoto = true
                     case "Racer or training":
                         showColdWool = true
@@ -313,7 +313,7 @@ struct finalPage: View {
                     }
                 case "None":
                     switch skierType {
-                    case "casual skier":
+                    case "Casual skier":
                         showColdDab = true
                     case "Racer or training":
                         showColdDab = true
@@ -335,7 +335,7 @@ struct finalPage: View {
                 case "Waxing Iron":
                     
                     switch skierType {
-                    case "casual skier":
+                    case "Casual skier":
                         showFreezingCasual = true
                     case "Racer or training":
                         showFreezingRace = true
@@ -346,7 +346,7 @@ struct finalPage: View {
                 case "RotoWool":
                     
                     switch skierType {
-                    case "casual skier":
+                    case "Casual skier":
                         showFreezingRoto = true
                     case "Racer or training":
                         showFreezingWool = true
@@ -355,7 +355,7 @@ struct finalPage: View {
                     }
                 case "None":
                     switch skierType {
-                    case "casual skier":
+                    case "Casual skier":
                         showFreezingDab = true
                     case "Racer or training":
                         showFreezingDab = true
@@ -377,6 +377,6 @@ struct finalPage: View {
     
     struct finalPage_Previews: PreviewProvider {
         static var previews: some View {
-            finalPage(temp: "between -4 and +4", equipment: "Waxing Iron", skierType: "casual skier")
+            finalPage(temp: "between -4 and +4", equipment: "Waxing Iron", skierType: "Casual skier")
         }
     }

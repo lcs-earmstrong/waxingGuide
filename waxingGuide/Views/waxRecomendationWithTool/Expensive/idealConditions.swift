@@ -10,7 +10,7 @@ import SwiftUI
 struct idealConditions: View {
     var body: some View {
         ScrollView{
-        Text("These are the best conditions to ski in, you don't need to dress to warmly and it isn't slow.  For these conditions the best wax is the HS7 or TS7B")
+        Text("These are the best conditions to ski in, you don't need to dress too warmly and it isn't slow.  For these conditions the best wax is the HS7 or TS7B")
             
             HStack{
                 Image("idealConditions")

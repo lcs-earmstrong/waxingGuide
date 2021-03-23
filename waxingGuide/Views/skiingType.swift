@@ -24,8 +24,8 @@ struct skiingType: View {
             }
             
             List{
-                NavigationLink( destination: finalPage(temp: temp, equipment: equipment, skierType: "casual skier")){
-                    Text("casual skier")
+                NavigationLink( destination: finalPage(temp: temp, equipment: equipment, skierType: "Casual skier")){
+                    Text("Casual skier")
                 }
                 
                 NavigationLink( destination: finalPage(temp: temp, equipment: equipment, skierType: "Racer or training"))  {
