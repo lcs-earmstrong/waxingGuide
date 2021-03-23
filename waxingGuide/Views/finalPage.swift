@@ -32,6 +32,11 @@ struct finalPage: View {
     @State private var showAverageRoto = false
     @State private var showAverageWool = false
     @State private var showAverageDab = false
+    @State private var showColdRace = false
+    @State private var showColdCasual = false
+    @State private var showColdRoto = false
+    @State private var showColdWool = false
+    @State private var showColdDab = false
     
     @State var temp: String
     @State var equipment: String
@@ -63,6 +68,11 @@ struct finalPage: View {
             else if showAverageRoto { averageRoto() }
             else if showAverageWool { averageWool() }
             else if showAverageDab { averageDab() }
+            else if showColdRace { cold() }
+            else if showColdCasual { cold1() }
+            else if showColdRoto { coldRoto() }
+            else if showColdWool { coldWool() }
+            else if showColdDab { coldDab() }
         }
         .onAppear() {
             switch temp {
