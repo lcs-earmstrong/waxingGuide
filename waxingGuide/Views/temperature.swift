@@ -37,7 +37,7 @@ struct temperature: View {
                 NavigationLink(destination: waxingEquipment(temp:"between -12 and -6")){
                     Text("between -12 and -6")
                 }
-                NavigationLink(destination: waxingEquipment(temp:"between -10 and -18")){
+                NavigationLink(destination: waxingEquipment(temp:"between -18 and -10")){
                     Text("between -18 and -10")
                 }
                 NavigationLink(destination: waxingEquipment(temp: "between -32 and -16"))

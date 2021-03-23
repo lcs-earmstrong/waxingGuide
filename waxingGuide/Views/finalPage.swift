@@ -37,6 +37,8 @@ struct finalPage: View {
     @State private var showColdRoto = false
     @State private var showColdWool = false
     @State private var showColdDab = false
+    @State private var showFreezingRace = false
+    
     
     @State var temp: String
     @State var equipment: String
@@ -264,6 +266,48 @@ struct finalPage: View {
                         showAverageDab = true
                     case "Racer or training":
                         showAverageDab = true
+                    default:
+                        print("Error: this should never happen – probably caused by a typo in a case statement.")
+                    }
+                    
+                    
+                default:
+                    print("Error: this should never happen – probably caused by a typo in a case statement.")
+                }
+    default:
+        print("Error: this should never happen – probably caused by a typo in a case statement.")
+            }
+            switch temp {
+            case "between -18 and -10":
+                switch equipment {
+                
+                case "Waxing Iron":
+                    
+                    switch skierType {
+                    case "casual skier":
+                        showColdCasual = true
+                    case "Racer or training":
+                        showColdRace = true
+                    default:
+                        print("Error: this should never happen – probably caused by a typo in a case statement.")
+                    }
+                    
+                case "RotoWool":
+                    
+                    switch skierType {
+                    case "casual skier":
+                        showColdRoto = true
+                    case "Racer or training":
+                        showColdWool = true
+                    default:
+                        print("Error: this should never happen – probably caused by a typo in a case statement.")
+                    }
+                case "None":
+                    switch skierType {
+                    case "casual skier":
+                        showColdDab = true
+                    case "Racer or training":
+                        showColdDab = true
                     default:
                         print("Error: this should never happen – probably caused by a typo in a case statement.")
                     }
