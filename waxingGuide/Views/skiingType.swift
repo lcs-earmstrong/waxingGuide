@@ -16,9 +16,13 @@ struct skiingType: View {
         
         VStack{
             Text("What type of skier are you?")
+                .font(.title)
+                .fontWeight(.semibold)
             HStack{
                 Image("Klaebo")
+                    .resizable()
                     .padding(.leading, 35.0)
+                    .frame(width: 175.0, height: 125.0)
                 Image("casualSkier")
                     .padding(.trailing, 35.0)
             }

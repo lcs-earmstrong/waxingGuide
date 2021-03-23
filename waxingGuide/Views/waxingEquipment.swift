@@ -13,9 +13,16 @@ struct waxingEquipment: View {
     
     var body: some View {
         VStack{
-            Image("waxingEquipment")
             
             Text("What waxing equipment do you have?")
+                .font(.title)
+                .fontWeight(.bold)
+                .multilineTextAlignment(.center)
+            
+            
+            Image("waxingEquipment")
+            
+           
             
                 List{
                     NavigationLink( destination: skiingType(temp: temp, equipment: "Waxing Iron")){

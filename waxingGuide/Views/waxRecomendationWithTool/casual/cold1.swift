@@ -17,7 +17,7 @@ struct cold1: View {
                 Image("coldCasual")
                 Image("coldCasual2")
             }
-            Text("Set the iron temperature to 1500 degrees celcius(302 degrees fahrenheit) to apply the wax.  Put wax on the ski or snowboard than let cool for 10 minutes or more and scrape the wax off.")
+            Text("Set the iron temperature to 150 degrees celcius(302 degrees fahrenheit) to apply the wax.  Put wax on the ski or snowboard than let cool for 10 minutes or more and scrape the wax off.")
                 .padding(.horizontal, 15.0)
         }
     }
