@@ -329,16 +329,16 @@ struct finalPage: View {
         print("Error: this should never happen – probably caused by a typo in a case statement.")
             }
             switch temp {
-            case "between -18 and -10":
+            case "between -32 and -16":
                 switch equipment {
                 
                 case "Waxing Iron":
                     
                     switch skierType {
                     case "casual skier":
-                        showColdCasual = true
+                        showFreezingCasual = true
                     case "Racer or training":
-                        showColdRace = true
+                        showFreezingRace = true
                     default:
                         print("Error: this should never happen – probably caused by a typo in a case statement.")
                     }
@@ -347,18 +347,18 @@ struct finalPage: View {
                     
                     switch skierType {
                     case "casual skier":
-                        showColdRoto = true
+                        showFreezingRoto = true
                     case "Racer or training":
-                        showColdWool = true
+                        showFreezingWool = true
                     default:
                         print("Error: this should never happen – probably caused by a typo in a case statement.")
                     }
                 case "None":
                     switch skierType {
                     case "casual skier":
-                        showColdDab = true
+                        showFreezingDab = true
                     case "Racer or training":
-                        showColdDab = true
+                        showFreezingDab = true
                     default:
                         print("Error: this should never happen – probably caused by a typo in a case statement.")
                     }
