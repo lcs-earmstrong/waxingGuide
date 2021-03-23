@@ -22,6 +22,16 @@ struct finalPage: View {
     @State private var showWarmDab = false
     @State private var showWarmWool = false
     @State private var showWarmRoto = false
+    @State private var showidealConditions = false
+    @State private var showidealConditions1 = false
+    @State private var showIdealRoto = false
+    @State private var showIdealWool = false
+    @State private var showIdealDab = false
+    @State private var showAverageTemp = false
+    @State private var showAverageTemp1 = false
+    @State private var showAverageRoto = false
+    @State private var showAverageWool = false
+    @State private var showAverageDab = false
     
     @State var temp: String
     @State var equipment: String
@@ -43,6 +53,16 @@ struct finalPage: View {
             else if showWarmDab { WarmDab() }
             else if showWarmRoto { warmRoto() }
             else if showWarmWool { warmWool() }
+            else if showidealConditions { idealConditions() }
+            else if showidealConditions1 { idealConditions1() }
+            else if showIdealRoto { idealRoto() }
+            else if showIdealWool { idealWool() }
+            else if showIdealDab { idealDab() }
+            else if showAverageTemp { averageTemp() }
+            else if showAverageTemp1 { averageTemp1() }
+            else if showAverageRoto { averageRoto() }
+            else if showAverageWool { averageWool() }
+            else if showAverageDab { averageDab() }
         }
         .onAppear() {
             switch temp {
@@ -153,11 +173,55 @@ struct finalPage: View {
                             default:
                                 print("Error: this should never happen – probably caused by a typo in a case statement.")
                             }
+                            
+                            
                         default:
                             print("Error: this should never happen – probably caused by a typo in a case statement.")
                         }
             default:
                 print("Error: this should never happen – probably caused by a typo in a case statement.")
+            }
+            switch temp {
+            case "between -8 and -2":
+                switch equipment {
+                
+                case "Waxing Iron":
+                    
+                    switch skierType {
+                    case "casual skier":
+                        showWarmWax = true
+                    case "Racer or training":
+                        showWarmWaxes = true
+                    default:
+                        print("Error: this should never happen – probably caused by a typo in a case statement.")
+                    }
+                    
+                case "RotoWool":
+                    
+                    switch skierType {
+                    case "casual skier":
+                        showWarmRoto = true
+                    case "Racer or training":
+                        showWarmWool = true
+                    default:
+                        print("Error: this should never happen – probably caused by a typo in a case statement.")
+                    }
+                case "None":
+                    switch skierType {
+                    case "casual skier":
+                        showWarmDab = true
+                    case "Racer or training":
+                        showWarmDab = true
+                    default:
+                        print("Error: this should never happen – probably caused by a typo in a case statement.")
+                    }
+                    
+                    
+                default:
+                    print("Error: this should never happen – probably caused by a typo in a case statement.")
+                }
+    default:
+        print("Error: this should never happen – probably caused by a typo in a case statement.")
             }
         }
     }
