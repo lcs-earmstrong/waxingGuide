@@ -199,7 +199,6 @@
 		B8EE303525FFBE090047AED3 /* waxingGuide */ = {
 			isa = PBXGroup;
 			children = (
-				B8EE3054260264410047AED3 /* temperature.swift */,
 				B8EE303625FFBE090047AED3 /* waxingGuideApp.swift */,
 				B8EE303825FFBE090047AED3 /* ContentView.swift */,
 				B8EE3050260262C80047AED3 /* SimpleListItemView.swift */,
@@ -222,6 +221,7 @@
 		B8EE304925FFBFF50047AED3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B8EE3054260264410047AED3 /* temperature.swift */,
 				B8EE305826038AF70047AED3 /* waxingEquipment.swift */,
 				B8EE305B2603957D0047AED3 /* skiingType.swift */,
 				B8EE3069260505170047AED3 /* finalPage.swift */,
