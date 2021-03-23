@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct warmWax: View {
-   
+    
     var body: some View {
         ScrollView{
             Text("""
@@ -28,7 +28,7 @@ These conditions can be some of the nicest to ski in but can sometimes be very s
             }
             Text("Set the iron temp to 150 degrees celsius (302 degrees fahrenheit).  Put wax on the ski than let cool for 10 minutes or more and scrape the wax off.")
                 .padding(.horizontal, 10.0)
-    
+            
         }
     }
 }
