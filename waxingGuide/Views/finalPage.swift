@@ -189,9 +189,9 @@ struct finalPage: View {
                     
                     switch skierType {
                     case "casual skier":
-                        showWarmWax = true
+                        showidealConditions1 = true
                     case "Racer or training":
-                        showWarmWaxes = true
+                        showidealConditions = true
                     default:
                         print("Error: this should never happen – probably caused by a typo in a case statement.")
                     }
@@ -200,18 +200,60 @@ struct finalPage: View {
                     
                     switch skierType {
                     case "casual skier":
-                        showWarmRoto = true
+                        showIdealRoto = true
                     case "Racer or training":
-                        showWarmWool = true
+                        showIdealWool = true
                     default:
                         print("Error: this should never happen – probably caused by a typo in a case statement.")
                     }
                 case "None":
                     switch skierType {
                     case "casual skier":
-                        showWarmDab = true
+                        showIdealDab = true
                     case "Racer or training":
-                        showWarmDab = true
+                        showIdealDab = true
+                    default:
+                        print("Error: this should never happen – probably caused by a typo in a case statement.")
+                    }
+                    
+                    
+                default:
+                    print("Error: this should never happen – probably caused by a typo in a case statement.")
+                }
+    default:
+        print("Error: this should never happen – probably caused by a typo in a case statement.")
+            }
+            switch temp {
+            case "between -8 and -2":
+                switch equipment {
+                
+                case "Waxing Iron":
+                    
+                    switch skierType {
+                    case "casual skier":
+                        showidealConditions1 = true
+                    case "Racer or training":
+                        showidealConditions = true
+                    default:
+                        print("Error: this should never happen – probably caused by a typo in a case statement.")
+                    }
+                    
+                case "RotoWool":
+                    
+                    switch skierType {
+                    case "casual skier":
+                        showIdealRoto = true
+                    case "Racer or training":
+                        showIdealWool = true
+                    default:
+                        print("Error: this should never happen – probably caused by a typo in a case statement.")
+                    }
+                case "None":
+                    switch skierType {
+                    case "casual skier":
+                        showIdealDab = true
+                    case "Racer or training":
+                        showIdealDab = true
                     default:
                         print("Error: this should never happen – probably caused by a typo in a case statement.")
                     }
