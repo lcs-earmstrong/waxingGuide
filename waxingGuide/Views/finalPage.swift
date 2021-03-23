@@ -18,6 +18,11 @@ struct finalPage: View {
     @State private var showWarmWaxes = false
     @State private var showWarmestWool = false
     @State private var showWarmestRoto = false
+    @State private var showWarmestDab = false
+    @State private var showWarmDab = false
+    @State private var showWarmWool = false
+    @State private var showWarmRoto = false
+    
     @State var temp: String
     @State var equipment: String
     @State var skierType: String
@@ -34,6 +39,8 @@ struct finalPage: View {
             else if showWarmWaxes { warmWax() }
             else if showWarmestWool { warmestWool() }
             else if showWarmestRoto { warmestRoto() }
+            else if showWarmestDab { warmestDab() }
+            else if showWarmDab { warmDab() }
         }
         .onAppear() {
             switch temp {
@@ -92,6 +99,18 @@ struct finalPage: View {
                         default:
                             print("Error: this should never happen – probably caused by a typo in a case statement.")
                         }
+                        
+                    case "None":
+                        
+                        switch skierType {
+                        case "casual skier":
+                            showWarmestDab = true
+                        case "Racer or training":
+                            showWarmestDab = true
+                        default:
+                            print("Error: this should never happen – probably caused by a typo in a case statement.")
+                        }
+                        
                     default:
                         print("Error: this should never happen – probably caused by a typo in a case statement.")
                     }

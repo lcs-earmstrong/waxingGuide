@@ -32,10 +32,6 @@ struct skiingType: View {
                     Text("Racer or training")
                 }
                 
-                NavigationLink( destination: finalPage(temp: temp, equipment: equipment, skierType:"Other")){
-                    Text("Other")
-                }
-                
             }
         }
     }
