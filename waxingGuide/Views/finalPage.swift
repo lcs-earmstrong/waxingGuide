@@ -137,9 +137,9 @@ struct finalPage: View {
                             
                             switch skierType {
                             case "casual skier":
-                                showWarmWax = true
+                                showWarmRoto = true
                             case "Racer or training":
-                                showWarmWaxes = true
+                                showWarmWool = true
                             default:
                                 print("Error: this should never happen – probably caused by a typo in a case statement.")
                             }
