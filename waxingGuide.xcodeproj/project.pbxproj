@@ -20,6 +20,18 @@
 		B80B2C8D260988E800FA3734 /* idealDab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C8C260988E800FA3734 /* idealDab.swift */; };
 		B80B2C90260988F300FA3734 /* coldDab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C8F260988F300FA3734 /* coldDab.swift */; };
 		B80B2C932609890000FA3734 /* freezingDab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C922609890000FA3734 /* freezingDab.swift */; };
+		B80B2C9D260A046600FA3734 /* warmestRoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C9C260A046600FA3734 /* warmestRoto.swift */; };
+		B80B2CA1260A047200FA3734 /* warmRoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2CA0260A047200FA3734 /* warmRoto.swift */; };
+		B80B2CA4260A048200FA3734 /* averageRoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2CA3260A048200FA3734 /* averageRoto.swift */; };
+		B80B2CA7260A049000FA3734 /* idealRoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2CA6260A049000FA3734 /* idealRoto.swift */; };
+		B80B2CAA260A049F00FA3734 /* coldRoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2CA9260A049F00FA3734 /* coldRoto.swift */; };
+		B80B2CAE260A04B800FA3734 /* freezingRoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2CAD260A04B800FA3734 /* freezingRoto.swift */; };
+		B80B2CB1260A04CD00FA3734 /* warmestWool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2CB0260A04CD00FA3734 /* warmestWool.swift */; };
+		B80B2CB4260A04D900FA3734 /* warmWool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2CB3260A04D900FA3734 /* warmWool.swift */; };
+		B80B2CB7260A04E600FA3734 /* idealWool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2CB6260A04E600FA3734 /* idealWool.swift */; };
+		B80B2CBA260A04F500FA3734 /* averageWool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2CB9260A04F500FA3734 /* averageWool.swift */; };
+		B80B2CBD260A050200FA3734 /* coldWool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2CBC260A050200FA3734 /* coldWool.swift */; };
+		B80B2CC0260A051000FA3734 /* freezingWool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2CBF260A051000FA3734 /* freezingWool.swift */; };
 		B8EE303725FFBE090047AED3 /* waxingGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE303625FFBE090047AED3 /* waxingGuideApp.swift */; };
 		B8EE303925FFBE090047AED3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE303825FFBE090047AED3 /* ContentView.swift */; };
 		B8EE303B25FFBE0E0047AED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8EE303A25FFBE0E0047AED3 /* Assets.xcassets */; };
@@ -51,6 +63,18 @@
 		B80B2C8C260988E800FA3734 /* idealDab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idealDab.swift; sourceTree = "<group>"; };
 		B80B2C8F260988F300FA3734 /* coldDab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coldDab.swift; sourceTree = "<group>"; };
 		B80B2C922609890000FA3734 /* freezingDab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freezingDab.swift; sourceTree = "<group>"; };
+		B80B2C9C260A046600FA3734 /* warmestRoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warmestRoto.swift; sourceTree = "<group>"; };
+		B80B2CA0260A047200FA3734 /* warmRoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warmRoto.swift; sourceTree = "<group>"; };
+		B80B2CA3260A048200FA3734 /* averageRoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = averageRoto.swift; sourceTree = "<group>"; };
+		B80B2CA6260A049000FA3734 /* idealRoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idealRoto.swift; sourceTree = "<group>"; };
+		B80B2CA9260A049F00FA3734 /* coldRoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coldRoto.swift; sourceTree = "<group>"; };
+		B80B2CAD260A04B800FA3734 /* freezingRoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freezingRoto.swift; sourceTree = "<group>"; };
+		B80B2CB0260A04CD00FA3734 /* warmestWool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warmestWool.swift; sourceTree = "<group>"; };
+		B80B2CB3260A04D900FA3734 /* warmWool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warmWool.swift; sourceTree = "<group>"; };
+		B80B2CB6260A04E600FA3734 /* idealWool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idealWool.swift; sourceTree = "<group>"; };
+		B80B2CB9260A04F500FA3734 /* averageWool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = averageWool.swift; sourceTree = "<group>"; };
+		B80B2CBC260A050200FA3734 /* coldWool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coldWool.swift; sourceTree = "<group>"; };
+		B80B2CBF260A051000FA3734 /* freezingWool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freezingWool.swift; sourceTree = "<group>"; };
 		B8EE303325FFBE090047AED3 /* waxingGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waxingGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EE303625FFBE090047AED3 /* waxingGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waxingGuideApp.swift; sourceTree = "<group>"; };
 		B8EE303825FFBE090047AED3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +116,41 @@
 				B80B2C922609890000FA3734 /* freezingDab.swift */,
 			);
 			path = "bingo dabber";
+			sourceTree = "<group>";
+		};
+		B80B2C99260A041300FA3734 /* RotoWool */ = {
+			isa = PBXGroup;
+			children = (
+				B80B2C9B260A043E00FA3734 /* RotoRace */,
+				B80B2C9A260A042400FA3734 /* rotoCasual */,
+			);
+			path = RotoWool;
+			sourceTree = "<group>";
+		};
+		B80B2C9A260A042400FA3734 /* rotoCasual */ = {
+			isa = PBXGroup;
+			children = (
+				B80B2C9C260A046600FA3734 /* warmestRoto.swift */,
+				B80B2CA0260A047200FA3734 /* warmRoto.swift */,
+				B80B2CA6260A049000FA3734 /* idealRoto.swift */,
+				B80B2CA3260A048200FA3734 /* averageRoto.swift */,
+				B80B2CA9260A049F00FA3734 /* coldRoto.swift */,
+				B80B2CAD260A04B800FA3734 /* freezingRoto.swift */,
+			);
+			path = rotoCasual;
+			sourceTree = "<group>";
+		};
+		B80B2C9B260A043E00FA3734 /* RotoRace */ = {
+			isa = PBXGroup;
+			children = (
+				B80B2CB0260A04CD00FA3734 /* warmestWool.swift */,
+				B80B2CB3260A04D900FA3734 /* warmWool.swift */,
+				B80B2CB6260A04E600FA3734 /* idealWool.swift */,
+				B80B2CB9260A04F500FA3734 /* averageWool.swift */,
+				B80B2CBC260A050200FA3734 /* coldWool.swift */,
+				B80B2CBF260A051000FA3734 /* freezingWool.swift */,
+			);
+			path = RotoRace;
 			sourceTree = "<group>";
 		};
 		B88F7DB9260809E0006AB7AD /* Expensive */ = {
@@ -166,6 +225,7 @@
 				B8EE305826038AF70047AED3 /* waxingEquipment.swift */,
 				B8EE305B2603957D0047AED3 /* skiingType.swift */,
 				B8EE3069260505170047AED3 /* finalPage.swift */,
+				B80B2C81260988A000FA3734 /* bingo dabber */,
 				B8EE306C260507830047AED3 /* waxRecomendationWithTool */,
 			);
 			path = Views;
@@ -174,7 +234,7 @@
 		B8EE306C260507830047AED3 /* waxRecomendationWithTool */ = {
 			isa = PBXGroup;
 			children = (
-				B80B2C81260988A000FA3734 /* bingo dabber */,
+				B80B2C99260A041300FA3734 /* RotoWool */,
 				B88F7DBA26080A0B006AB7AD /* casual */,
 				B88F7DB9260809E0006AB7AD /* Expensive */,
 			);
@@ -250,32 +310,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B80B2CA1260A047200FA3734 /* warmRoto.swift in Sources */,
 				B80B2C83260988BC00FA3734 /* warmestDab.swift in Sources */,
 				B8EE305926038AF70047AED3 /* waxingEquipment.swift in Sources */,
 				B80B2C87260988CD00FA3734 /* WarmDab.swift in Sources */,
 				B80B2C5E2608E92A00FA3734 /* cold1.swift in Sources */,
 				B8EE306A260505170047AED3 /* finalPage.swift in Sources */,
+				B80B2CAA260A049F00FA3734 /* coldRoto.swift in Sources */,
 				B8EE305C2603957D0047AED3 /* skiingType.swift in Sources */,
 				B8EE303925FFBE090047AED3 /* ContentView.swift in Sources */,
 				B80B2C932609890000FA3734 /* freezingDab.swift in Sources */,
 				B8EE306E2605086E0047AED3 /* warmestWax.swift in Sources */,
+				B80B2CAE260A04B800FA3734 /* freezingRoto.swift in Sources */,
 				B8EE307F260508CF0047AED3 /* freezing.swift in Sources */,
+				B80B2CB4260A04D900FA3734 /* warmWool.swift in Sources */,
 				B80B2C622608E96C00FA3734 /* idealConditions1.swift in Sources */,
+				B80B2C9D260A046600FA3734 /* warmestRoto.swift in Sources */,
 				B8EE3073260508830047AED3 /* warmWax.swift in Sources */,
 				B8EE303725FFBE090047AED3 /* waxingGuideApp.swift in Sources */,
 				B8EE3055260264410047AED3 /* temperature.swift in Sources */,
+				B80B2CA4260A048200FA3734 /* averageRoto.swift in Sources */,
 				B80B2C522608E8BE00FA3734 /* warmestWax1.swift in Sources */,
 				B80B2C5A2608E90D00FA3734 /* averageTemp1.swift in Sources */,
 				B80B2C4E2608E88500FA3734 /* warmWax1.swift in Sources */,
 				B80B2C6E2609020700FA3734 /* tempList.swift in Sources */,
+				B80B2CBA260A04F500FA3734 /* averageWool.swift in Sources */,
 				B80B2C562608E8E500FA3734 /* freezing1.swift in Sources */,
 				B8EE3079260508AF0047AED3 /* averageTemp.swift in Sources */,
 				B8EE307C260508C20047AED3 /* cold.swift in Sources */,
 				B8EE3051260262C80047AED3 /* SimpleListItemView.swift in Sources */,
 				B80B2C90260988F300FA3734 /* coldDab.swift in Sources */,
 				B80B2C8A260988DA00FA3734 /* averageDab.swift in Sources */,
+				B80B2CA7260A049000FA3734 /* idealRoto.swift in Sources */,
+				B80B2CB1260A04CD00FA3734 /* warmestWool.swift in Sources */,
 				B8EE3076260508920047AED3 /* idealConditions.swift in Sources */,
+				B80B2CBD260A050200FA3734 /* coldWool.swift in Sources */,
 				B80B2C8D260988E800FA3734 /* idealDab.swift in Sources */,
+				B80B2CC0260A051000FA3734 /* freezingWool.swift in Sources */,
+				B80B2CB7260A04E600FA3734 /* idealWool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
