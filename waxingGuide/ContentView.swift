@@ -13,8 +13,7 @@ struct ContentView: View {
             Text("Welcome to my waxing app")
                 .font(.largeTitle)
                 .multilineTextAlignment(.center)
-                .padding(.top, -26.0)
-            Spacer()
+                .padding(.top, -75.0)
             HStack{
                 Image("EvanSkiing")
                     .resizable()
@@ -25,6 +24,9 @@ struct ContentView: View {
                     .resizable()
                     .frame(width: 75.0, height: 75.0)
             }
+           
+            
+            Spacer()
             NavigationLink(destination: temperature()){
             Image("swixWaxes")
                 .padding(.bottom, 3.0)
