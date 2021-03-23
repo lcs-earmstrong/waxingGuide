@@ -40,7 +40,9 @@ struct finalPage: View {
             else if showWarmestWool { warmestWool() }
             else if showWarmestRoto { warmestRoto() }
             else if showWarmestDab { warmestDab() }
-            else if showWarmDab { warmDab() }
+            else if showWarmDab { WarmDab() }
+            else if showWarmRoto { warmRoto() }
+            else if showWarmWool { warmWool() }
         }
         .onAppear() {
             switch temp {
