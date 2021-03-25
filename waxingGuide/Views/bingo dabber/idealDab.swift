@@ -14,6 +14,7 @@ struct idealDab: View {
         Image("idealLiquid")
         Text("Apply the wax by 'dabbing' some out and then rubbing it in.  Give it time to cool/soak in and than go ski.")
         }
+        .padding(.horizontal, 15.0)
     }
 }
 
