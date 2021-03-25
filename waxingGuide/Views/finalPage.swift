@@ -381,9 +381,13 @@ struct finalPage: View {
                 .font(.footnote)
                 .padding(.horizontal, 25.0)
             
+            Spacer()
+            
             Text("* This is just a reference, it does not take into account all of the variables so it may not be accurate.")
                 .font(.footnote)
                 .padding(.horizontal, 25.0)
+            
+            Spacer()
             
             Text("** This app mainly(apart from one) just uses swix waxes, other waxes may work as well or better.")
                 .font(.footnote)
