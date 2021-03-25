@@ -15,7 +15,11 @@ struct cold1: View {
             
             HStack{
                 Image("coldCasual")
+                    .resizable()
+                    .frame(width: 150, height: 300 )
                 Image("coldCasual2")
+                    .resizable()
+                    .frame(width: 150, height: 300 )
             }
             Text("Set the iron temperature to 150 degrees celcius(302 degrees fahrenheit) to apply the wax.  Put wax on the ski or snowboard than let cool for 10 minutes or more and scrape the wax off.")
                 .padding(.horizontal, 15.0)
