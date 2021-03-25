@@ -51,6 +51,7 @@ struct finalPage: View {
     // MARK: Computed properties
     var body: some View {
         
+        VStack {
         
         VStack {
             
@@ -370,6 +371,10 @@ struct finalPage: View {
     default:
         print("Error: this should never happen – probably caused by a typo in a case statement.")
             }
+        }
+            Text("If you would like any more information on this the internet has a lot more information.")
+            Text("* This is just a reference, it does not take into account all of the variables so it may not be accurate.")
+            Text("** This app mainly(apart from one) just uses swix waxes, other waxes may work as well or better.")
         }
     }
 }

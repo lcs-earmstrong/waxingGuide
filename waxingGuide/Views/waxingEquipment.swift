@@ -12,6 +12,7 @@ struct waxingEquipment: View {
     @ State var temp: String
     
     var body: some View {
+    
         VStack{
             
             Text("What waxing equipment do you have?")
@@ -36,8 +37,8 @@ struct waxingEquipment: View {
                     Text("None")
                     }
                     }
-            }
-        }
+        } 
+    }
     }
 
 struct waxingEquipment_Previews: PreviewProvider {

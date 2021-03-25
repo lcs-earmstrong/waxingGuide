@@ -28,24 +28,27 @@ struct skiingType: View {
             }
             
             List{
+                
                 NavigationLink( destination: finalPage(temp: temp, equipment: equipment, skierType: "Casual skier")){
                     Text("Casual skier")
                 }
                 
                 NavigationLink( destination: finalPage(temp: temp, equipment: equipment, skierType: "Racer or training"))  {
                     Text("Racer or training")
+                    
                 }
                 
             }
+            
         }
     }
 }
-    
-    struct skiingType_Previews: PreviewProvider {
-        static var previews: some View {
-            NavigationView{
-                skiingType(temp: "between -4 and +4", equipment: "rotoWool")
-                
-            }
+
+struct skiingType_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationView{
+            skiingType(temp: "between -4 and +4", equipment: "rotoWool")
+            
         }
     }
+}
