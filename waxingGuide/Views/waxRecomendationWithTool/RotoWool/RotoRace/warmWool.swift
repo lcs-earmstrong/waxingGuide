@@ -14,18 +14,18 @@ struct warmWool: View {
 These conditions can be some of the nicest to ski in but can sometimes be very slow (if it is above 0)  for these temperatures I would recomend the swix HS8 or the swix TS8B.
 
 """)
-                .padding(.horizontal, 10.0)
-            Spacer()
+                .padding(.horizontal, 15.0)
             Spacer()
             HStack{
                 Image("warmWax")
                     .resizable()
-                    .frame(width: 65.0)
+                    .frame(width: 125, height: 250)
                 Image("warmWax2")
                     .resizable()
-                    .frame(width: 65.0)
+                    .frame(width: 125, height: 250)
             }
-        Text("Start the drill and press the hardwax against half of the wool for 3 seconds.  Spin the wax into the base (around thre strokes up and down the ski) and than polish with the other half of the wool.  Finally wipe off the dust and you are ready to ski.")
+            Text("Start the drill and press the hardwax against half of the wool for 3 seconds.  Spin the wax into the base (around thre strokes up and down the ski) and than polish with the other half of the wool.  Finally wipe off the dust and you are ready to ski.")
+                .padding(.horizontal, 15.0)
         }
     }
 }

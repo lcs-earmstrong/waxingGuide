@@ -10,7 +10,7 @@ import SwiftUI
 struct freezingRoto: View {
     var body: some View {
         ScrollView{
-            Text("For temperatures in between -14 and -32 degrees celcius the best wax is the CH4X.")
+            Text("This is a very cold temperature to ski at so good on you for going out in this temperature.  For temperatures in between -14 and -32 degrees celcius the best wax is the CH4X.")
                 .padding(.horizontal, 15.0)
             
             Image("freezingCasual")

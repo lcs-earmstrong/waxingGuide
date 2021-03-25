@@ -13,7 +13,7 @@ struct warmestWool: View {
             Text("""
 Looks like you are planning on going on a pretty warm day.  These conditions are never really fast but the warm wax is the best you can do to help with this. HS10 TS10B
 """)
-                .padding(.horizontal, 12.0)
+                .padding(.horizontal, 15.0)
             HStack{
                 Image("warmestWax2")
                 Image("warmestWax")

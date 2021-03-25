@@ -18,8 +18,11 @@ struct coldWool: View {
                     .resizable()
                     .frame(width: 100, height: 250)
                 Image("cold2")
+                    .resizable()
+                    .frame(width: 100, height: 225)
             }
-        Text("Start the drill and press the hardwax against half of the wool for 3 seconds.  Spin the wax into the base (around thre strokes up and down the ski) and than polish with the other half of the wool.  Finally wipe off the dust and you are ready to ski.")
+            Text("Start the drill and press the hardwax against half of the wool for 3 seconds.  Spin the wax into the base (around thre strokes up and down the ski) and than polish with the other half of the wool.  Finally wipe off the dust and you are ready to ski.")
+                .padding(.horizontal, 15.0)
         }
     }
 }
