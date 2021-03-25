@@ -18,6 +18,8 @@ struct idealConditions1: View {
                     .resizable()
                     .frame(width: 115, height: 275)
                 Image("idealConditionsCasual2")
+                    .resizable()
+                    .frame(width: 115, height: 275)
             }
             Text("Set the waxing iron to 140 degrees celsius (284 degrees fahrenheit).  Put wax on the ski than let cool for 10 minutes or more and scrape the wax off.")
                 .padding(.horizontal, 20.0)
