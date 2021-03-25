@@ -16,6 +16,7 @@ struct temperature: View {
                 .font(.title2)
                 .fontWeight(.black)
                 .padding()
+            Image("thermometer")
             Text("If the temperature is in two ranges please chose the range that has the temperature closest to the middle and also take into consideration other days you would like to go skiing.")
                 .font(.caption2)
                 .padding(.horizontal)
