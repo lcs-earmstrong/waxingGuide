@@ -51,7 +51,7 @@ struct finalPage: View {
     // MARK: Computed properties
     var body: some View {
         
-        VStack {
+        ScrollView {
         
         VStack {
             
