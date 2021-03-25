@@ -372,9 +372,23 @@ struct finalPage: View {
         print("Error: this should never happen – probably caused by a typo in a case statement.")
             }
         }
+            
+            Spacer()
+            Spacer()
+            Spacer()
+            
             Text("If you would like any more information on this the internet has a lot more information.")
+                .font(.footnote)
+                .padding(.horizontal, 25.0)
+            
             Text("* This is just a reference, it does not take into account all of the variables so it may not be accurate.")
+                .font(.footnote)
+                .padding(.horizontal, 25.0)
+            
             Text("** This app mainly(apart from one) just uses swix waxes, other waxes may work as well or better.")
+                .font(.footnote)
+                .padding(.horizontal, 25.0)
+                
         }
     }
 }
