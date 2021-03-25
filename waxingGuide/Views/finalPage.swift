@@ -377,7 +377,7 @@ struct finalPage: View {
             Spacer()
             Spacer()
             
-            Text("If you would like any more information on this the internet has a lot more information.")
+            Text("If you would like any more information on this; the internet has a lot more information.")
                 .font(.footnote)
                 .padding(.horizontal, 25.0)
             
@@ -392,6 +392,7 @@ struct finalPage: View {
             Text("** This app mainly(apart from one) just uses swix waxes, other waxes may work as well or better.")
                 .font(.footnote)
                 .padding(.horizontal, 25.0)
+            Spacer()
                 
         }
     }
